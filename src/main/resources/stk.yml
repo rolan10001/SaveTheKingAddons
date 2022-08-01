@@ -1,0 +1,23 @@
+stk:
+  role:
+    king:
+      display: "Roi"
+      description: "§8[§eSTK§8] §7Vous êtes §ele Roi\n§7Vous êtes le rôle principal de votre équipe, si vous mourez vos serviteurs ne pourront plus ressusciter. Pour ce faire, vous possédez §b§lVitesse II§7, §6§lRésistance I§7, §6§lRésistance au feu§7 et vous bénéficiez de dix coeurs permanents supplémentaires. Vous ne pouvez régénérer votre vie qu'avec des pommes d'or."
+    archer:
+      display: "Archer"
+      description: "§8[§eSTK§8] §7Vous êtes §9l'Archer\n§7Vous êtes un serviteur du Roi, tant que ce dernier est en vie vous pouvez ressusciter, vous devez le protéger à tout prix. Pour ce faire, vous possédez un arc §b§lPuissance IV §7et §b§lInfinité§7, cependant vous êtes bloqué à 8 coeurs permanents. Votre vie se régénère naturellement."
+    explorer:
+      display: "Explorateur"
+      description: "§8[§eSTK§8] §7Vous êtes §9l'Explorateur\n§7Vous êtes un serviteur du Roi, tant que ce dernier est en vie vous pouvez ressusciter, vous devez le protéger à tout prix. Pour ce faire, vous possédez §b§lVitesse I §7et §e§lHaste I§7. Votre vie se régénère naturellement."
+    soldier:
+      display: "Soldat"
+      description: "§8[§eSTK§8] §7Vous êtes §9le Soldat\n§7Vous êtes un serviteur du Roi, tant que ce dernier est en vie vous pouvez ressusciter, vous devez le protéger à tout prix. Pour ce faire, vous possédez §6§lRésistance I §7et vous bénéficiez de deux coeurs permanents supplémentaires. Votre vie se régénère naturellement."
+  check:
+    death: "§7§l▏ §cVous n'êtes pas vivant."
+  announcement:
+    review_role: "§8[§eSTK§8] §7Pour revoir la description de votre rôle §6/k role"
+    spectator_message: "§cVous êtes mort, votre aventure s'arrête ici, vous pouvez toujours regarder la fin de la partie en Spectateur."
+    resurrection: "§8[§eSTK§8] §7Vous venez d'être ressusciter."
+  action_bar:
+    choose_role: "§eChoisissez un rôle avec la commande /k role"
+    choose_role: "§eLes rôles sont aléatoires et seront dévoilés à §b%value1%:%value2%"

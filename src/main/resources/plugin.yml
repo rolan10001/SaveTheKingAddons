@@ -1,0 +1,9 @@
+name: SaveTheKingAddons
+author: rolan
+version: 1.0.0
+website: https://www.dxduhc.com
+main: fr.rolan.stk.STKPlugin
+softdepend: [UHCAPI]
+commands:
+  king:
+    aliases: [king, k, stk]
